@@ -63,7 +63,7 @@ def body(r1, r2):
         b2 = transform(b2)
 
     if b1 != b2:
-        raise AssertionError
+        raise AssertionError(f"{b1} != {b2}")
 
 
 def headers(r1, r2):
